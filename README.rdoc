@@ -1,5 +1,9 @@
 Recipe finder application that is built with Ruby 2.4.4 and uses Food2Fork API to search for food recipes.
 
-Results for searching for food with strawberry:
+Results for searching for recipe with strawberry:
 
 https://user-images.githubusercontent.com/23489236/42413003-3ac97040-8220-11e8-9281-76ed12826740.png
+
+Results for searching for recipe with apple pie:
+
+https://user-images.githubusercontent.com/23489236/42413018-a4a3daa0-8220-11e8-8a06-0427ef0be420.png
