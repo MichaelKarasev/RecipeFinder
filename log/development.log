@@ -1,0 +1,839 @@
+
+
+Started GET "/" for ::1 at 2018-07-05 22:12:19 +0300
+Processing by Rails::WelcomeController#index as HTML
+  Rendered /usr/local/rvm/gems/ruby-2.2.3/gems/railties-4.2.8/lib/rails/templates/rails/welcome/index.html.erb (2.8ms)
+Completed 200 OK in 34ms (Views: 17.3ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/recipes/index" for ::1 at 2018-07-05 22:12:27 +0300
+Processing by RecipesController#index as HTML
+  Rendered recipes/index.html.erb within layouts/application (0.4ms)
+Completed 200 OK in 1592ms (Views: 512.4ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.self-e80e8f2318043e8af94dddc2adad5a4f09739a8ebb323b3ab31cd71d45fd9113.css?body=1" for ::1 at 2018-07-05 22:12:29 +0300
+
+
+Started GET "/assets/turbolinks.self-2db6ec539b9190f75e1d477b305df53d12904d5cafdd47c7ffd91ba25cbec128.js?body=1" for ::1 at 2018-07-05 22:12:29 +0300
+
+
+Started GET "/assets/jquery_ujs.self-784a997f6726036b1993eb2217c9cb558e1cbb801c6da88105588c56f13b466a.js?body=1" for ::1 at 2018-07-05 22:12:29 +0300
+
+
+Started GET "/assets/recipes.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for ::1 at 2018-07-05 22:12:29 +0300
+
+
+Started GET "/assets/jquery.self-bd7ddd393353a8d2480a622e80342adf488fb6006d667e8b42e4c0073393abee.js?body=1" for ::1 at 2018-07-05 22:12:29 +0300
+
+
+Started GET "/assets/application.self-3b8dabdc891efe46b9a144b400ad69e37d7e5876bdc39dee783419a69d7ca819.js?body=1" for ::1 at 2018-07-05 22:12:29 +0300
+
+
+Started GET "/assets/recipes.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for ::1 at 2018-07-05 22:12:29 +0300
+
+
+Started GET "/recipes/index" for ::1 at 2018-07-05 22:24:19 +0300
+Processing by RecipesController#index as HTML
+  Rendered recipes/index.html.erb within layouts/application (4.1ms)
+Completed 200 OK in 1020ms (Views: 23.8ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/recipes/index" for ::1 at 2018-07-05 22:35:02 +0300
+Processing by RecipesController#index as HTML
+  Rendered recipes/index.html.erb within layouts/application (1.2ms)
+Completed 200 OK in 1044ms (Views: 35.7ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/recipes.self-6465d54aabc0c64090cc790a5042a53a683b9aba978e8eb4e9e8e68eb9746817.css?body=1" for ::1 at 2018-07-05 22:35:03 +0300
+
+
+Started GET "/recipes/index" for ::1 at 2018-07-05 22:37:51 +0300
+Processing by RecipesController#index as HTML
+  Rendered recipes/index.html.erb within layouts/application (1.2ms)
+Completed 200 OK in 1114ms (Views: 19.6ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/recipes/index" for ::1 at 2018-07-05 22:40:25 +0300
+Processing by RecipesController#index as HTML
+  Rendered recipes/index.html.erb within layouts/application (1.8ms)
+Completed 200 OK in 1128ms (Views: 19.3ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/recipes/index?looking_for=chocolate" for ::1 at 2018-07-05 22:40:44 +0300
+Processing by RecipesController#index as HTML
+  Parameters: {"looking_for"=>"chocolate"}
+  Rendered recipes/index.html.erb within layouts/application (1.2ms)
+Completed 200 OK in 1108ms (Views: 13.9ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/recipes/index?looking_for=pizza" for ::1 at 2018-07-05 22:40:52 +0300
+Processing by RecipesController#index as HTML
+  Parameters: {"looking_for"=>"pizza"}
+  Rendered recipes/index.html.erb within layouts/application (1.1ms)
+Completed 200 OK in 811ms (Views: 13.2ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/recipes/index?looking_for=pizza" for ::1 at 2018-07-05 22:41:09 +0300
+Processing by RecipesController#index as HTML
+  Parameters: {"looking_for"=>"pizza"}
+  Rendered recipes/index.html.erb within layouts/application (1.1ms)
+Completed 200 OK in 864ms (Views: 14.2ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/recipes/index?looking_for=pizzahut" for ::1 at 2018-07-05 22:41:16 +0300
+Processing by RecipesController#index as HTML
+  Parameters: {"looking_for"=>"pizzahut"}
+  Rendered recipes/index.html.erb within layouts/application (0.1ms)
+Completed 200 OK in 481ms (Views: 13.5ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/recipes/index?looking_for=" for ::1 at 2018-07-05 22:41:23 +0300
+Processing by RecipesController#index as HTML
+  Parameters: {"looking_for"=>""}
+  Rendered recipes/index.html.erb within layouts/application (1.2ms)
+Completed 200 OK in 2039ms (Views: 14.6ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/recipes/index?looking_for=" for ::1 at 2018-07-05 22:41:50 +0300
+Processing by RecipesController#index as HTML
+  Parameters: {"looking_for"=>""}
+  Rendered recipes/index.html.erb within layouts/application (1.9ms)
+Completed 200 OK in 1512ms (Views: 16.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/recipes/index?looking_for=chocolate" for ::1 at 2018-07-05 22:41:59 +0300
+Processing by RecipesController#index as HTML
+  Parameters: {"looking_for"=>"chocolate"}
+  Rendered recipes/index.html.erb within layouts/application (1.5ms)
+Completed 200 OK in 1001ms (Views: 16.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/recipes/index?looking_for=" for ::1 at 2018-07-05 22:42:16 +0300
+Processing by RecipesController#index as HTML
+  Parameters: {"looking_for"=>""}
+  Rendered recipes/index.html.erb within layouts/application (2.1ms)
+Completed 200 OK in 1647ms (Views: 19.4ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/recipes/index?looking_for=pizza" for ::1 at 2018-07-05 22:42:23 +0300
+Processing by RecipesController#index as HTML
+  Parameters: {"looking_for"=>"pizza"}
+  Rendered recipes/index.html.erb within layouts/application (1.3ms)
+Completed 200 OK in 939ms (Views: 16.3ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/recipes/index?looking_for=strawberry" for ::1 at 2018-07-05 22:42:34 +0300
+Processing by RecipesController#index as HTML
+  Parameters: {"looking_for"=>"strawberry"}
+  Rendered recipes/index.html.erb within layouts/application (1.2ms)
+Completed 200 OK in 2309ms (Views: 14.5ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/recipes/index" for ::1 at 2018-07-05 22:43:37 +0300
+Processing by RecipesController#index as HTML
+  Rendered recipes/index.html.erb within layouts/application (1.4ms)
+Completed 200 OK in 1072ms (Views: 22.2ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/recipes/index?looking_for=pizza" for ::1 at 2018-07-05 22:43:47 +0300
+Processing by RecipesController#index as HTML
+  Parameters: {"looking_for"=>"pizza"}
+  Rendered recipes/index.html.erb within layouts/application (1.1ms)
+Completed 200 OK in 1530ms (Views: 19.4ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/recipes/index?looking_for=pasta" for ::1 at 2018-07-05 22:43:54 +0300
+Processing by RecipesController#index as HTML
+  Parameters: {"looking_for"=>"pasta"}
+  Rendered recipes/index.html.erb within layouts/application (1.0ms)
+Completed 200 OK in 855ms (Views: 13.1ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for ::1 at 2018-07-05 22:45:50 +0300
+Processing by RecipesController#index as HTML
+  Rendered recipes/index.html.erb within layouts/application (1.6ms)
+Completed 200 OK in 1159ms (Views: 18.9ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for ::1 at 2018-07-05 22:48:32 +0300
+Processing by RecipesController#index as HTML
+  Rendered recipes/index.html.erb within layouts/application (1.5ms)
+Completed 200 OK in 1022ms (Views: 18.7ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for ::1 at 2018-07-05 22:51:52 +0300
+Processing by RecipesController#index as HTML
+  Rendered recipes/index.html.erb within layouts/application (3.6ms)
+Completed 200 OK in 1717ms (Views: 23.6ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/recipes/index?looking_for=pasta" for ::1 at 2018-07-05 22:52:00 +0300
+Processing by RecipesController#index as HTML
+  Parameters: {"looking_for"=>"pasta"}
+  Rendered recipes/index.html.erb within layouts/application (1.6ms)
+Completed 200 OK in 997ms (Views: 18.2ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for ::1 at 2018-07-05 23:09:51 +0300
+Processing by RecipesController#index as HTML
+  Rendered recipes/index.html.erb within layouts/application (4.7ms)
+Completed 200 OK in 1017ms (Views: 23.5ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/recipes/index?search=pasta" for ::1 at 2018-07-05 23:11:28 +0300
+Processing by RecipesController#index as HTML
+  Parameters: {"search"=>"pasta"}
+  Rendered recipes/index.html.erb within layouts/application (1.9ms)
+Completed 200 OK in 909ms (Views: 21.5ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/recipes/index?search=pizza" for ::1 at 2018-07-05 23:11:36 +0300
+Processing by RecipesController#index as HTML
+  Parameters: {"search"=>"pizza"}
+  Rendered recipes/index.html.erb within layouts/application (1.9ms)
+Completed 200 OK in 2095ms (Views: 15.6ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/recipes/index?search=pizza" for ::1 at 2018-07-05 23:30:46 +0300
+Processing by RecipesController#index as HTML
+  Parameters: {"search"=>"pizza"}
+  Rendered recipes/index.html.erb within layouts/application (3.1ms)
+Completed 200 OK in 1332ms (Views: 23.2ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/recipes/index?search=pizza" for ::1 at 2018-07-05 23:33:31 +0300
+Processing by RecipesController#index as HTML
+  Parameters: {"search"=>"pizza"}
+  Rendered recipes/index.html.erb within layouts/application (2.2ms)
+Completed 200 OK in 863ms (Views: 17.8ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/recipes/index?search=pizza" for ::1 at 2018-07-05 23:34:37 +0300
+Processing by RecipesController#index as HTML
+  Parameters: {"search"=>"pizza"}
+  Rendered recipes/index.html.erb within layouts/application (2.9ms)
+Completed 200 OK in 1522ms (Views: 23.7ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/recipes/index?search=coffee" for ::1 at 2018-07-05 23:35:09 +0300
+Processing by RecipesController#index as HTML
+  Parameters: {"search"=>"coffee"}
+  Rendered recipes/index.html.erb within layouts/application (3.4ms)
+Completed 200 OK in 1001ms (Views: 19.6ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/recipes/index?search=strawberry" for ::1 at 2018-07-05 23:35:32 +0300
+Processing by RecipesController#index as HTML
+  Parameters: {"search"=>"strawberry"}
+  Rendered recipes/index.html.erb within layouts/application (2.1ms)
+Completed 200 OK in 1197ms (Views: 18.7ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/recipes/index?search=coffee" for ::1 at 2018-07-05 23:36:21 +0300
+Processing by RecipesController#index as HTML
+  Parameters: {"search"=>"coffee"}
+  Rendered recipes/index.html.erb within layouts/application (3.5ms)
+Completed 200 OK in 1230ms (Views: 22.3ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/recipes/index?search=coffee" for ::1 at 2018-07-05 23:36:59 +0300
+Processing by RecipesController#index as HTML
+  Parameters: {"search"=>"coffee"}
+  Rendered recipes/index.html.erb within layouts/application (4.4ms)
+Completed 200 OK in 1006ms (Views: 19.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/recipes/index?search=coffee,%20strawberry" for ::1 at 2018-07-05 23:54:35 +0300
+Processing by RecipesController#index as HTML
+  Parameters: {"search"=>"coffee, strawberry"}
+  Rendered recipes/index.html.erb within layouts/application (1.7ms)
+Completed 200 OK in 982ms (Views: 22.3ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/recipes/index?search=coffee&strawberry" for ::1 at 2018-07-05 23:54:50 +0300
+Processing by RecipesController#index as HTML
+  Parameters: {"search"=>"coffee", "strawberry"=>nil}
+  Rendered recipes/index.html.erb within layouts/application (3.2ms)
+Completed 200 OK in 1086ms (Views: 20.7ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/recipes/index?search=coffee,strawberry" for ::1 at 2018-07-05 23:55:00 +0300
+Processing by RecipesController#index as HTML
+  Parameters: {"search"=>"coffee,strawberry"}
+  Rendered recipes/index.html.erb within layouts/application (1.8ms)
+Completed 200 OK in 985ms (Views: 20.1ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/recipes/index?search=coffee,strawberry" for ::1 at 2018-07-05 23:55:33 +0300
+Processing by RecipesController#index as HTML
+  Parameters: {"search"=>"coffee,strawberry"}
+  Rendered recipes/index.html.erb within layouts/application (1.8ms)
+Completed 200 OK in 928ms (Views: 20.2ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/recipes/index?search=strawberry" for ::1 at 2018-07-05 23:55:38 +0300
+Processing by RecipesController#index as HTML
+  Parameters: {"search"=>"strawberry"}
+  Rendered recipes/index.html.erb within layouts/application (3.0ms)
+Completed 200 OK in 1072ms (Views: 18.1ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/recipes/index?search=mocha" for ::1 at 2018-07-05 23:58:06 +0300
+Processing by RecipesController#index as HTML
+  Parameters: {"search"=>"mocha"}
+  Rendered recipes/index.html.erb within layouts/application (2.4ms)
+Completed 200 OK in 2025ms (Views: 23.2ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/recipes/index?search=coffee%20chocolate" for ::1 at 2018-07-06 00:25:38 +0300
+Processing by RecipesController#index as HTML
+  Parameters: {"search"=>"coffee chocolate"}
+  Rendered recipes/index.html.erb within layouts/application (3.0ms)
+Completed 200 OK in 1710ms (Views: 21.2ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/recipes/index?search=mocha" for ::1 at 2018-07-06 00:56:12 +0300
+Processing by RecipesController#index as HTML
+  Parameters: {"search"=>"mocha"}
+  Rendered recipes/index.html.erb within layouts/application (9.7ms)
+Completed 200 OK in 1438ms (Views: 28.1ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/?search=mocha" for ::1 at 2018-07-06 07:44:06 +0300
+Processing by RecipesController#index as HTML
+  Parameters: {"search"=>"mocha"}
+  Rendered recipes/index.html.erb within layouts/application (5.5ms)
+Completed 200 OK in 1617ms (Views: 29.4ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/recipes.self-6465d54aabc0c64090cc790a5042a53a683b9aba978e8eb4e9e8e68eb9746817.css?body=1" for ::1 at 2018-07-06 07:44:08 +0300
+
+
+Started GET "/assets/application.self-e80e8f2318043e8af94dddc2adad5a4f09739a8ebb323b3ab31cd71d45fd9113.css?body=1" for ::1 at 2018-07-06 07:44:08 +0300
+
+
+Started GET "/assets/jquery.self-bd7ddd393353a8d2480a622e80342adf488fb6006d667e8b42e4c0073393abee.js?body=1" for ::1 at 2018-07-06 07:44:08 +0300
+
+
+Started GET "/assets/jquery_ujs.self-784a997f6726036b1993eb2217c9cb558e1cbb801c6da88105588c56f13b466a.js?body=1" for ::1 at 2018-07-06 07:44:08 +0300
+
+
+Started GET "/assets/application.self-3b8dabdc891efe46b9a144b400ad69e37d7e5876bdc39dee783419a69d7ca819.js?body=1" for ::1 at 2018-07-06 07:44:08 +0300
+
+
+Started GET "/assets/turbolinks.self-2db6ec539b9190f75e1d477b305df53d12904d5cafdd47c7ffd91ba25cbec128.js?body=1" for ::1 at 2018-07-06 07:44:08 +0300
+
+
+Started GET "/assets/recipes.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for ::1 at 2018-07-06 07:44:08 +0300
+
+
+Started GET "/" for ::1 at 2018-07-06 07:44:13 +0300
+Processing by RecipesController#index as HTML
+  Rendered recipes/index.html.erb within layouts/application (3.1ms)
+Completed 200 OK in 1057ms (Views: 18.9ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for ::1 at 2018-07-06 07:44:15 +0300
+Processing by RecipesController#index as HTML
+  Rendered recipes/index.html.erb within layouts/application (3.6ms)
+Completed 200 OK in 1002ms (Views: 19.1ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for ::1 at 2018-07-06 07:44:16 +0300
+Processing by RecipesController#index as HTML
+  Rendered recipes/index.html.erb within layouts/application (2.7ms)
+Completed 200 OK in 1214ms (Views: 17.2ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for ::1 at 2018-07-06 07:44:17 +0300
+Processing by RecipesController#index as HTML
+  Rendered recipes/index.html.erb within layouts/application (2.7ms)
+Completed 200 OK in 898ms (Views: 17.4ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for ::1 at 2018-07-06 07:44:18 +0300
+Processing by RecipesController#index as HTML
+  Rendered recipes/index.html.erb within layouts/application (3.4ms)
+Completed 200 OK in 957ms (Views: 16.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/?search=mocha" for ::1 at 2018-07-06 23:26:11 +0300
+Processing by RecipesController#index as HTML
+  Parameters: {"search"=>"mocha"}
+Completed 500 Internal Server Error in 35ms (ActiveRecord: 0.0ms)
+
+SocketError (getaddrinfo: nodename nor servname provided, or not known):
+  app/models/recipe.rb:10:in `for'
+  app/controllers/recipes_controller.rb:4:in `index'
+
+
+  Rendered /usr/local/rvm/gems/ruby-2.2.3/gems/actionpack-4.2.8/lib/action_dispatch/middleware/templates/rescues/_source.erb (9.5ms)
+  Rendered /usr/local/rvm/gems/ruby-2.2.3/gems/actionpack-4.2.8/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (3.0ms)
+  Rendered /usr/local/rvm/gems/ruby-2.2.3/gems/actionpack-4.2.8/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (1.7ms)
+  Rendered /usr/local/rvm/gems/ruby-2.2.3/gems/actionpack-4.2.8/lib/action_dispatch/middleware/templates/rescues/diagnostics.html.erb within rescues/layout (71.6ms)
+  Rendered /usr/local/rvm/gems/ruby-2.2.3/gems/web-console-2.3.0/lib/web_console/templates/_markup.html.erb (0.4ms)
+  Rendered /usr/local/rvm/gems/ruby-2.2.3/gems/web-console-2.3.0/lib/web_console/templates/_inner_console_markup.html.erb within layouts/inlined_string (0.4ms)
+  Rendered /usr/local/rvm/gems/ruby-2.2.3/gems/web-console-2.3.0/lib/web_console/templates/_prompt_box_markup.html.erb within layouts/inlined_string (0.4ms)
+  Rendered /usr/local/rvm/gems/ruby-2.2.3/gems/web-console-2.3.0/lib/web_console/templates/style.css.erb within layouts/inlined_string (0.4ms)
+  Rendered /usr/local/rvm/gems/ruby-2.2.3/gems/web-console-2.3.0/lib/web_console/templates/console.js.erb within layouts/javascript (66.1ms)
+  Rendered /usr/local/rvm/gems/ruby-2.2.3/gems/web-console-2.3.0/lib/web_console/templates/main.js.erb within layouts/javascript (0.7ms)
+  Rendered /usr/local/rvm/gems/ruby-2.2.3/gems/web-console-2.3.0/lib/web_console/templates/error_page.js.erb within layouts/javascript (1.2ms)
+  Rendered /usr/local/rvm/gems/ruby-2.2.3/gems/web-console-2.3.0/lib/web_console/templates/index.html.erb (144.7ms)
+
+
+Started GET "/" for ::1 at 2018-07-06 23:26:14 +0300
+Processing by RecipesController#index as HTML
+Completed 500 Internal Server Error in 2ms (ActiveRecord: 0.0ms)
+
+SocketError (getaddrinfo: nodename nor servname provided, or not known):
+  app/models/recipe.rb:10:in `for'
+  app/controllers/recipes_controller.rb:4:in `index'
+
+
+  Rendered /usr/local/rvm/gems/ruby-2.2.3/gems/actionpack-4.2.8/lib/action_dispatch/middleware/templates/rescues/_source.erb (7.6ms)
+  Rendered /usr/local/rvm/gems/ruby-2.2.3/gems/actionpack-4.2.8/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (3.5ms)
+  Rendered /usr/local/rvm/gems/ruby-2.2.3/gems/actionpack-4.2.8/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (1.5ms)
+  Rendered /usr/local/rvm/gems/ruby-2.2.3/gems/actionpack-4.2.8/lib/action_dispatch/middleware/templates/rescues/diagnostics.html.erb within rescues/layout (57.0ms)
+  Rendered /usr/local/rvm/gems/ruby-2.2.3/gems/web-console-2.3.0/lib/web_console/templates/_markup.html.erb (0.5ms)
+  Rendered /usr/local/rvm/gems/ruby-2.2.3/gems/web-console-2.3.0/lib/web_console/templates/_inner_console_markup.html.erb within layouts/inlined_string (0.4ms)
+  Rendered /usr/local/rvm/gems/ruby-2.2.3/gems/web-console-2.3.0/lib/web_console/templates/_prompt_box_markup.html.erb within layouts/inlined_string (0.4ms)
+  Rendered /usr/local/rvm/gems/ruby-2.2.3/gems/web-console-2.3.0/lib/web_console/templates/style.css.erb within layouts/inlined_string (0.5ms)
+  Rendered /usr/local/rvm/gems/ruby-2.2.3/gems/web-console-2.3.0/lib/web_console/templates/console.js.erb within layouts/javascript (47.5ms)
+  Rendered /usr/local/rvm/gems/ruby-2.2.3/gems/web-console-2.3.0/lib/web_console/templates/main.js.erb within layouts/javascript (0.4ms)
+  Rendered /usr/local/rvm/gems/ruby-2.2.3/gems/web-console-2.3.0/lib/web_console/templates/error_page.js.erb within layouts/javascript (0.4ms)
+  Rendered /usr/local/rvm/gems/ruby-2.2.3/gems/web-console-2.3.0/lib/web_console/templates/index.html.erb (99.8ms)
+
+
+Started GET "/" for ::1 at 2018-07-06 23:26:16 +0300
+Processing by RecipesController#index as HTML
+Completed 500 Internal Server Error in 2ms (ActiveRecord: 0.0ms)
+
+SocketError (getaddrinfo: nodename nor servname provided, or not known):
+  app/models/recipe.rb:10:in `for'
+  app/controllers/recipes_controller.rb:4:in `index'
+
+
+  Rendered /usr/local/rvm/gems/ruby-2.2.3/gems/actionpack-4.2.8/lib/action_dispatch/middleware/templates/rescues/_source.erb (4.5ms)
+  Rendered /usr/local/rvm/gems/ruby-2.2.3/gems/actionpack-4.2.8/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (3.6ms)
+  Rendered /usr/local/rvm/gems/ruby-2.2.3/gems/actionpack-4.2.8/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (0.8ms)
+  Rendered /usr/local/rvm/gems/ruby-2.2.3/gems/actionpack-4.2.8/lib/action_dispatch/middleware/templates/rescues/diagnostics.html.erb within rescues/layout (50.8ms)
+  Rendered /usr/local/rvm/gems/ruby-2.2.3/gems/web-console-2.3.0/lib/web_console/templates/_markup.html.erb (0.3ms)
+  Rendered /usr/local/rvm/gems/ruby-2.2.3/gems/web-console-2.3.0/lib/web_console/templates/_inner_console_markup.html.erb within layouts/inlined_string (0.2ms)
+  Rendered /usr/local/rvm/gems/ruby-2.2.3/gems/web-console-2.3.0/lib/web_console/templates/_prompt_box_markup.html.erb within layouts/inlined_string (0.3ms)
+  Rendered /usr/local/rvm/gems/ruby-2.2.3/gems/web-console-2.3.0/lib/web_console/templates/style.css.erb within layouts/inlined_string (0.3ms)
+  Rendered /usr/local/rvm/gems/ruby-2.2.3/gems/web-console-2.3.0/lib/web_console/templates/console.js.erb within layouts/javascript (41.3ms)
+  Rendered /usr/local/rvm/gems/ruby-2.2.3/gems/web-console-2.3.0/lib/web_console/templates/main.js.erb within layouts/javascript (0.4ms)
+  Rendered /usr/local/rvm/gems/ruby-2.2.3/gems/web-console-2.3.0/lib/web_console/templates/error_page.js.erb within layouts/javascript (0.4ms)
+  Rendered /usr/local/rvm/gems/ruby-2.2.3/gems/web-console-2.3.0/lib/web_console/templates/index.html.erb (97.0ms)
+
+
+Started GET "/" for ::1 at 2018-07-06 23:26:19 +0300
+Processing by RecipesController#index as HTML
+Completed 500 Internal Server Error in 2ms (ActiveRecord: 0.0ms)
+
+SocketError (getaddrinfo: nodename nor servname provided, or not known):
+  app/models/recipe.rb:10:in `for'
+  app/controllers/recipes_controller.rb:4:in `index'
+
+
+  Rendered /usr/local/rvm/gems/ruby-2.2.3/gems/actionpack-4.2.8/lib/action_dispatch/middleware/templates/rescues/_source.erb (7.0ms)
+  Rendered /usr/local/rvm/gems/ruby-2.2.3/gems/actionpack-4.2.8/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (2.2ms)
+  Rendered /usr/local/rvm/gems/ruby-2.2.3/gems/actionpack-4.2.8/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (0.9ms)
+  Rendered /usr/local/rvm/gems/ruby-2.2.3/gems/actionpack-4.2.8/lib/action_dispatch/middleware/templates/rescues/diagnostics.html.erb within rescues/layout (51.2ms)
+  Rendered /usr/local/rvm/gems/ruby-2.2.3/gems/web-console-2.3.0/lib/web_console/templates/_markup.html.erb (0.4ms)
+  Rendered /usr/local/rvm/gems/ruby-2.2.3/gems/web-console-2.3.0/lib/web_console/templates/_inner_console_markup.html.erb within layouts/inlined_string (0.3ms)
+  Rendered /usr/local/rvm/gems/ruby-2.2.3/gems/web-console-2.3.0/lib/web_console/templates/_prompt_box_markup.html.erb within layouts/inlined_string (0.3ms)
+  Rendered /usr/local/rvm/gems/ruby-2.2.3/gems/web-console-2.3.0/lib/web_console/templates/style.css.erb within layouts/inlined_string (0.4ms)
+  Rendered /usr/local/rvm/gems/ruby-2.2.3/gems/web-console-2.3.0/lib/web_console/templates/console.js.erb within layouts/javascript (40.6ms)
+  Rendered /usr/local/rvm/gems/ruby-2.2.3/gems/web-console-2.3.0/lib/web_console/templates/main.js.erb within layouts/javascript (0.3ms)
+  Rendered /usr/local/rvm/gems/ruby-2.2.3/gems/web-console-2.3.0/lib/web_console/templates/error_page.js.erb within layouts/javascript (0.4ms)
+  Rendered /usr/local/rvm/gems/ruby-2.2.3/gems/web-console-2.3.0/lib/web_console/templates/index.html.erb (91.7ms)
+
+
+Started GET "/" for ::1 at 2018-07-06 23:26:21 +0300
+Processing by RecipesController#index as HTML
+Completed 500 Internal Server Error in 2ms (ActiveRecord: 0.0ms)
+
+SocketError (getaddrinfo: nodename nor servname provided, or not known):
+  app/models/recipe.rb:10:in `for'
+  app/controllers/recipes_controller.rb:4:in `index'
+
+
+  Rendered /usr/local/rvm/gems/ruby-2.2.3/gems/actionpack-4.2.8/lib/action_dispatch/middleware/templates/rescues/_source.erb (5.9ms)
+  Rendered /usr/local/rvm/gems/ruby-2.2.3/gems/actionpack-4.2.8/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (2.2ms)
+  Rendered /usr/local/rvm/gems/ruby-2.2.3/gems/actionpack-4.2.8/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (1.0ms)
+  Rendered /usr/local/rvm/gems/ruby-2.2.3/gems/actionpack-4.2.8/lib/action_dispatch/middleware/templates/rescues/diagnostics.html.erb within rescues/layout (52.8ms)
+  Rendered /usr/local/rvm/gems/ruby-2.2.3/gems/web-console-2.3.0/lib/web_console/templates/_markup.html.erb (0.4ms)
+  Rendered /usr/local/rvm/gems/ruby-2.2.3/gems/web-console-2.3.0/lib/web_console/templates/_inner_console_markup.html.erb within layouts/inlined_string (0.4ms)
+  Rendered /usr/local/rvm/gems/ruby-2.2.3/gems/web-console-2.3.0/lib/web_console/templates/_prompt_box_markup.html.erb within layouts/inlined_string (0.3ms)
+  Rendered /usr/local/rvm/gems/ruby-2.2.3/gems/web-console-2.3.0/lib/web_console/templates/style.css.erb within layouts/inlined_string (0.8ms)
+  Rendered /usr/local/rvm/gems/ruby-2.2.3/gems/web-console-2.3.0/lib/web_console/templates/console.js.erb within layouts/javascript (43.7ms)
+  Rendered /usr/local/rvm/gems/ruby-2.2.3/gems/web-console-2.3.0/lib/web_console/templates/main.js.erb within layouts/javascript (0.3ms)
+  Rendered /usr/local/rvm/gems/ruby-2.2.3/gems/web-console-2.3.0/lib/web_console/templates/error_page.js.erb within layouts/javascript (0.3ms)
+  Rendered /usr/local/rvm/gems/ruby-2.2.3/gems/web-console-2.3.0/lib/web_console/templates/index.html.erb (95.8ms)
+
+
+Started GET "/" for ::1 at 2018-07-06 23:26:23 +0300
+Processing by RecipesController#index as HTML
+Completed 500 Internal Server Error in 2ms (ActiveRecord: 0.0ms)
+
+SocketError (getaddrinfo: nodename nor servname provided, or not known):
+  app/models/recipe.rb:10:in `for'
+  app/controllers/recipes_controller.rb:4:in `index'
+
+
+  Rendered /usr/local/rvm/gems/ruby-2.2.3/gems/actionpack-4.2.8/lib/action_dispatch/middleware/templates/rescues/_source.erb (5.0ms)
+  Rendered /usr/local/rvm/gems/ruby-2.2.3/gems/actionpack-4.2.8/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (2.5ms)
+  Rendered /usr/local/rvm/gems/ruby-2.2.3/gems/actionpack-4.2.8/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (0.8ms)
+  Rendered /usr/local/rvm/gems/ruby-2.2.3/gems/actionpack-4.2.8/lib/action_dispatch/middleware/templates/rescues/diagnostics.html.erb within rescues/layout (51.6ms)
+  Rendered /usr/local/rvm/gems/ruby-2.2.3/gems/web-console-2.3.0/lib/web_console/templates/_markup.html.erb (0.4ms)
+  Rendered /usr/local/rvm/gems/ruby-2.2.3/gems/web-console-2.3.0/lib/web_console/templates/_inner_console_markup.html.erb within layouts/inlined_string (18.2ms)
+  Rendered /usr/local/rvm/gems/ruby-2.2.3/gems/web-console-2.3.0/lib/web_console/templates/_prompt_box_markup.html.erb within layouts/inlined_string (0.3ms)
+  Rendered /usr/local/rvm/gems/ruby-2.2.3/gems/web-console-2.3.0/lib/web_console/templates/style.css.erb within layouts/inlined_string (0.3ms)
+  Rendered /usr/local/rvm/gems/ruby-2.2.3/gems/web-console-2.3.0/lib/web_console/templates/console.js.erb within layouts/javascript (60.8ms)
+  Rendered /usr/local/rvm/gems/ruby-2.2.3/gems/web-console-2.3.0/lib/web_console/templates/main.js.erb within layouts/javascript (0.3ms)
+  Rendered /usr/local/rvm/gems/ruby-2.2.3/gems/web-console-2.3.0/lib/web_console/templates/error_page.js.erb within layouts/javascript (0.4ms)
+  Rendered /usr/local/rvm/gems/ruby-2.2.3/gems/web-console-2.3.0/lib/web_console/templates/index.html.erb (113.1ms)
+
+
+Started GET "/" for ::1 at 2018-07-06 23:27:14 +0300
+Processing by RecipesController#index as HTML
+Completed 500 Internal Server Error in 4ms (ActiveRecord: 0.0ms)
+
+SocketError (getaddrinfo: nodename nor servname provided, or not known):
+  app/models/recipe.rb:10:in `for'
+  app/controllers/recipes_controller.rb:4:in `index'
+
+
+  Rendered /usr/local/rvm/gems/ruby-2.2.3/gems/actionpack-4.2.8/lib/action_dispatch/middleware/templates/rescues/_source.erb (4.9ms)
+  Rendered /usr/local/rvm/gems/ruby-2.2.3/gems/actionpack-4.2.8/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (2.2ms)
+  Rendered /usr/local/rvm/gems/ruby-2.2.3/gems/actionpack-4.2.8/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (0.8ms)
+  Rendered /usr/local/rvm/gems/ruby-2.2.3/gems/actionpack-4.2.8/lib/action_dispatch/middleware/templates/rescues/diagnostics.html.erb within rescues/layout (52.2ms)
+  Rendered /usr/local/rvm/gems/ruby-2.2.3/gems/web-console-2.3.0/lib/web_console/templates/_markup.html.erb (0.3ms)
+  Rendered /usr/local/rvm/gems/ruby-2.2.3/gems/web-console-2.3.0/lib/web_console/templates/_inner_console_markup.html.erb within layouts/inlined_string (0.4ms)
+  Rendered /usr/local/rvm/gems/ruby-2.2.3/gems/web-console-2.3.0/lib/web_console/templates/_prompt_box_markup.html.erb within layouts/inlined_string (0.3ms)
+  Rendered /usr/local/rvm/gems/ruby-2.2.3/gems/web-console-2.3.0/lib/web_console/templates/style.css.erb within layouts/inlined_string (0.4ms)
+  Rendered /usr/local/rvm/gems/ruby-2.2.3/gems/web-console-2.3.0/lib/web_console/templates/console.js.erb within layouts/javascript (44.2ms)
+  Rendered /usr/local/rvm/gems/ruby-2.2.3/gems/web-console-2.3.0/lib/web_console/templates/main.js.erb within layouts/javascript (0.3ms)
+  Rendered /usr/local/rvm/gems/ruby-2.2.3/gems/web-console-2.3.0/lib/web_console/templates/error_page.js.erb within layouts/javascript (0.4ms)
+  Rendered /usr/local/rvm/gems/ruby-2.2.3/gems/web-console-2.3.0/lib/web_console/templates/index.html.erb (95.8ms)
+
+
+Started GET "/" for ::1 at 2018-07-07 16:25:24 +0300
+Processing by RecipesController#index as HTML
+  Rendered recipes/index.html.erb within layouts/application (8.6ms)
+Completed 200 OK in 1718ms (Views: 51.7ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/?search=strawberry" for ::1 at 2018-07-07 16:25:48 +0300
+Processing by RecipesController#index as HTML
+  Parameters: {"search"=>"strawberry"}
+  Rendered recipes/index.html.erb within layouts/application (5.4ms)
+Completed 200 OK in 1098ms (Views: 27.3ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/?search=apple" for ::1 at 2018-07-07 16:26:36 +0300
+Processing by RecipesController#index as HTML
+  Parameters: {"search"=>"apple"}
+  Rendered recipes/index.html.erb within layouts/application (3.9ms)
+Completed 200 OK in 1062ms (Views: 23.4ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/?search=apple%20pie" for ::1 at 2018-07-07 16:26:44 +0300
+Processing by RecipesController#index as HTML
+  Parameters: {"search"=>"apple pie"}
+  Rendered recipes/index.html.erb within layouts/application (6.6ms)
+Completed 200 OK in 2262ms (Views: 29.3ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/?search=apple%20pie%20muffins" for ::1 at 2018-07-07 16:26:58 +0300
+Processing by RecipesController#index as HTML
+  Parameters: {"search"=>"apple pie muffins"}
+  Rendered recipes/index.html.erb within layouts/application (2.2ms)
+Completed 200 OK in 1143ms (Views: 28.1ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/?search=mocha" for ::1 at 2018-07-07 16:29:17 +0300
+Processing by RecipesController#index as HTML
+  Parameters: {"search"=>"mocha"}
+  Rendered recipes/index.html.erb within layouts/application (2.5ms)
+Completed 200 OK in 1434ms (Views: 15.9ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/recipes.self-6465d54aabc0c64090cc790a5042a53a683b9aba978e8eb4e9e8e68eb9746817.css?body=1" for ::1 at 2018-07-07 16:29:19 +0300
+
+
+Started GET "/assets/application.self-e80e8f2318043e8af94dddc2adad5a4f09739a8ebb323b3ab31cd71d45fd9113.css?body=1" for ::1 at 2018-07-07 16:29:19 +0300
+
+
+Started GET "/assets/jquery.self-bd7ddd393353a8d2480a622e80342adf488fb6006d667e8b42e4c0073393abee.js?body=1" for ::1 at 2018-07-07 16:29:19 +0300
+
+
+Started GET "/assets/turbolinks.self-2db6ec539b9190f75e1d477b305df53d12904d5cafdd47c7ffd91ba25cbec128.js?body=1" for ::1 at 2018-07-07 16:29:19 +0300
+
+
+Started GET "/assets/jquery_ujs.self-784a997f6726036b1993eb2217c9cb558e1cbb801c6da88105588c56f13b466a.js?body=1" for ::1 at 2018-07-07 16:29:19 +0300
+
+
+Started GET "/assets/application.self-3b8dabdc891efe46b9a144b400ad69e37d7e5876bdc39dee783419a69d7ca819.js?body=1" for ::1 at 2018-07-07 16:29:19 +0300
+
+
+Started GET "/assets/recipes.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for ::1 at 2018-07-07 16:29:19 +0300
+
+
+Started GET "/" for ::1 at 2018-07-07 16:29:32 +0300
+Processing by RecipesController#index as HTML
+  Rendered recipes/index.html.erb within layouts/application (5.7ms)
+Completed 200 OK in 982ms (Views: 23.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for ::1 at 2018-07-07 16:29:45 +0300
+Processing by RecipesController#index as HTML
+  Rendered recipes/index.html.erb within layouts/application (2.9ms)
+Completed 200 OK in 1172ms (Views: 19.6ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for ::1 at 2018-07-07 16:29:47 +0300
+Processing by RecipesController#index as HTML
+  Rendered recipes/index.html.erb within layouts/application (4.2ms)
+Completed 200 OK in 1124ms (Views: 28.3ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for ::1 at 2018-07-07 16:29:48 +0300
+Processing by RecipesController#index as HTML
+  Rendered recipes/index.html.erb within layouts/application (3.0ms)
+Completed 200 OK in 898ms (Views: 17.3ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for ::1 at 2018-07-07 16:29:49 +0300
+Processing by RecipesController#index as HTML
+  Rendered recipes/index.html.erb within layouts/application (4.7ms)
+Completed 200 OK in 1053ms (Views: 22.9ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/?search=apple%20pie%20muffins" for ::1 at 2018-07-07 16:35:48 +0300
+Processing by RecipesController#index as HTML
+  Parameters: {"search"=>"apple pie muffins"}
+  Rendered recipes/index.html.erb within layouts/application (19.1ms)
+Completed 500 Internal Server Error in 1081ms (ActiveRecord: 0.0ms)
+
+ActionView::Template::Error (no implicit conversion of Symbol into Integer):
+     9:   <% @recipes.each do |recipe| %>
+    10:     <tr class=<%= cycle('even', 'odd') %>>
+    11:       <td><%= link_to(image_tag(recipe["image_url"], height: '100', width: '100'), recipe["f2f_url"])%></td>
+    12:       <td><%= link_to(sanitize recipe["title"], recipe["f2f_url"]) %></td>
+    13:       <td><%= recipe["social_rank"] %></td>
+    14:     </tr>
+    15:   <% end %>
+  app/views/recipes/index.html.erb:12:in `block in _app_views_recipes_index_html_erb__753269834324617109_70189649006520'
+  app/views/recipes/index.html.erb:9:in `each'
+  app/views/recipes/index.html.erb:9:in `_app_views_recipes_index_html_erb__753269834324617109_70189649006520'
+
+
+  Rendered /usr/local/rvm/gems/ruby-2.2.3/gems/actionpack-4.2.8/lib/action_dispatch/middleware/templates/rescues/_source.erb (6.8ms)
+  Rendered /usr/local/rvm/gems/ruby-2.2.3/gems/actionpack-4.2.8/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (3.9ms)
+  Rendered /usr/local/rvm/gems/ruby-2.2.3/gems/actionpack-4.2.8/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (2.0ms)
+  Rendered /usr/local/rvm/gems/ruby-2.2.3/gems/actionpack-4.2.8/lib/action_dispatch/middleware/templates/rescues/template_error.html.erb within rescues/layout (59.3ms)
+  Rendered /usr/local/rvm/gems/ruby-2.2.3/gems/web-console-2.3.0/lib/web_console/templates/_markup.html.erb (1.0ms)
+  Rendered /usr/local/rvm/gems/ruby-2.2.3/gems/web-console-2.3.0/lib/web_console/templates/_inner_console_markup.html.erb within layouts/inlined_string (0.3ms)
+  Rendered /usr/local/rvm/gems/ruby-2.2.3/gems/web-console-2.3.0/lib/web_console/templates/_prompt_box_markup.html.erb within layouts/inlined_string (0.3ms)
+  Rendered /usr/local/rvm/gems/ruby-2.2.3/gems/web-console-2.3.0/lib/web_console/templates/style.css.erb within layouts/inlined_string (0.4ms)
+  Rendered /usr/local/rvm/gems/ruby-2.2.3/gems/web-console-2.3.0/lib/web_console/templates/console.js.erb within layouts/javascript (46.8ms)
+  Rendered /usr/local/rvm/gems/ruby-2.2.3/gems/web-console-2.3.0/lib/web_console/templates/main.js.erb within layouts/javascript (0.3ms)
+  Rendered /usr/local/rvm/gems/ruby-2.2.3/gems/web-console-2.3.0/lib/web_console/templates/error_page.js.erb within layouts/javascript (0.4ms)
+  Rendered /usr/local/rvm/gems/ruby-2.2.3/gems/web-console-2.3.0/lib/web_console/templates/index.html.erb (103.0ms)
+
+
+Started GET "/?search=apple%20pie%20muffins" for ::1 at 2018-07-07 16:38:24 +0300
+Processing by RecipesController#index as HTML
+  Parameters: {"search"=>"apple pie muffins"}
+
+
+Started GET "/" for ::1 at 2018-07-07 16:39:10 +0300
+Processing by RecipesController#index as HTML
+
+
+Started GET "/" for ::1 at 2018-07-07 16:40:06 +0300
+Processing by RecipesController#index as HTML
+
+
+Started GET "/" for ::1 at 2018-07-07 16:40:49 +0300
+Processing by RecipesController#index as HTML
+  Rendered recipes/index.html.erb within layouts/application (4.1ms)
+Completed 200 OK in 1251ms (Views: 263.2ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for ::1 at 2018-07-07 16:43:41 +0300
+Processing by RecipesController#index as HTML
+
+
+Started GET "/" for ::1 at 2018-07-07 16:45:45 +0300
+Processing by RecipesController#index as HTML
+
+
+Started GET "/" for ::1 at 2018-07-07 16:47:08 +0300
+Processing by RecipesController#index as HTML
+
+
+Started GET "/" for ::1 at 2018-07-07 17:05:35 +0300
+Processing by RecipesController#index as HTML
+  Rendered recipes/index.html.erb within layouts/application (5.0ms)
+Completed 200 OK in 1950ms (Views: 261.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for ::1 at 2018-07-07 17:06:01 +0300
+Processing by RecipesController#index as HTML
+  Rendered recipes/index.html.erb within layouts/application (2.7ms)
+Completed 200 OK in 1029ms (Views: 17.4ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for ::1 at 2018-07-07 17:06:11 +0300
+Processing by RecipesController#index as HTML
+  Rendered recipes/index.html.erb within layouts/application (2.9ms)
+Completed 200 OK in 1076ms (Views: 15.6ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for ::1 at 2018-07-07 17:06:31 +0300
+Processing by RecipesController#index as HTML
+  Rendered recipes/index.html.erb within layouts/application (20.5ms)
+Completed 200 OK in 1066ms (Views: 33.1ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for ::1 at 2018-07-07 17:06:35 +0300
+Processing by RecipesController#index as HTML
+  Rendered recipes/index.html.erb within layouts/application (8.7ms)
+Completed 200 OK in 1061ms (Views: 23.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/recipes/index?looking_for=" for ::1 at 2018-07-07 17:06:45 +0300
+Processing by RecipesController#index as HTML
+  Parameters: {"looking_for"=>""}
+  Rendered recipes/index.html.erb within layouts/application (9.1ms)
+Completed 200 OK in 1007ms (Views: 23.6ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/recipes/index?searc=" for ::1 at 2018-07-07 17:06:57 +0300
+Processing by RecipesController#index as HTML
+  Parameters: {"searc"=>""}
+  Rendered recipes/index.html.erb within layouts/application (9.4ms)
+Completed 200 OK in 953ms (Views: 22.7ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/recipes/index?search=mocha" for ::1 at 2018-07-07 17:07:07 +0300
+Processing by RecipesController#index as HTML
+  Parameters: {"search"=>"mocha"}
+  Rendered recipes/index.html.erb within layouts/application (8.6ms)
+Completed 200 OK in 1568ms (Views: 20.6ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/?search=mocha" for ::1 at 2018-07-07 17:09:08 +0300
+Processing by RecipesController#index as HTML
+  Parameters: {"search"=>"mocha"}
+  Rendered recipes/index.html.erb within layouts/application (14.5ms)
+Completed 200 OK in 1853ms (Views: 282.1ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/recipes.self-6465d54aabc0c64090cc790a5042a53a683b9aba978e8eb4e9e8e68eb9746817.css?body=1" for ::1 at 2018-07-07 17:09:10 +0300
+
+
+Started GET "/assets/jquery.self-bd7ddd393353a8d2480a622e80342adf488fb6006d667e8b42e4c0073393abee.js?body=1" for ::1 at 2018-07-07 17:09:10 +0300
+
+
+Started GET "/assets/application.self-e80e8f2318043e8af94dddc2adad5a4f09739a8ebb323b3ab31cd71d45fd9113.css?body=1" for ::1 at 2018-07-07 17:09:10 +0300
+
+
+Started GET "/assets/jquery_ujs.self-784a997f6726036b1993eb2217c9cb558e1cbb801c6da88105588c56f13b466a.js?body=1" for ::1 at 2018-07-07 17:09:10 +0300
+
+
+Started GET "/assets/application.self-3b8dabdc891efe46b9a144b400ad69e37d7e5876bdc39dee783419a69d7ca819.js?body=1" for ::1 at 2018-07-07 17:09:10 +0300
+
+
+Started GET "/assets/turbolinks.self-2db6ec539b9190f75e1d477b305df53d12904d5cafdd47c7ffd91ba25cbec128.js?body=1" for ::1 at 2018-07-07 17:09:10 +0300
+
+
+Started GET "/assets/recipes.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for ::1 at 2018-07-07 17:09:10 +0300
+
+
+Started GET "/" for ::1 at 2018-07-07 17:09:20 +0300
+Processing by RecipesController#index as HTML
+  Rendered recipes/index.html.erb within layouts/application (10.5ms)
+Completed 200 OK in 1081ms (Views: 24.9ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for ::1 at 2018-07-07 17:09:29 +0300
+Processing by RecipesController#index as HTML
+  Rendered recipes/index.html.erb within layouts/application (9.1ms)
+Completed 200 OK in 904ms (Views: 23.5ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for ::1 at 2018-07-07 17:09:30 +0300
+Processing by RecipesController#index as HTML
+  Rendered recipes/index.html.erb within layouts/application (9.3ms)
+Completed 200 OK in 945ms (Views: 22.5ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for ::1 at 2018-07-07 17:09:31 +0300
+Processing by RecipesController#index as HTML
+  Rendered recipes/index.html.erb within layouts/application (9.2ms)
+Completed 200 OK in 973ms (Views: 21.6ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for ::1 at 2018-07-07 17:09:32 +0300
+Processing by RecipesController#index as HTML
+  Rendered recipes/index.html.erb within layouts/application (8.6ms)
+Completed 200 OK in 1310ms (Views: 21.9ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for ::1 at 2018-07-07 17:43:44 +0300
+Processing by RecipesController#index as HTML
+  Rendered recipes/index.html.erb within layouts/application (9.7ms)
+Completed 200 OK in 1201ms (Views: 39.6ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for ::1 at 2018-07-07 17:59:00 +0300
+Processing by RecipesController#index as HTML
+  Rendered recipes/index.html.erb within layouts/application (21.6ms)
+Completed 200 OK in 2233ms (Views: 271.1ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for ::1 at 2018-07-07 18:04:59 +0300
+Processing by RecipesController#index as HTML
+  Rendered recipes/index.html.erb within layouts/application (19.4ms)
+Completed 200 OK in 2463ms (Views: 278.9ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for ::1 at 2018-07-07 18:12:12 +0300
+Processing by RecipesController#index as HTML
+  Rendered recipes/index.html.erb within layouts/application (13.7ms)
+Completed 200 OK in 1313ms (Views: 249.7ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for ::1 at 2018-07-07 18:44:35 +0300
+Processing by RecipesController#index as HTML
+  Rendered recipes/index.html.erb within layouts/application (16.1ms)
+Completed 200 OK in 2042ms (Views: 383.3ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for ::1 at 2018-07-07 18:47:36 +0300
+Processing by RecipesController#index as HTML
+  Rendered recipes/index.html.erb within layouts/application (17.0ms)
+Completed 200 OK in 1116ms (Views: 180.1ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for ::1 at 2018-07-07 19:05:46 +0300
+Processing by RecipesController#index as HTML
+  Rendered recipes/index.html.erb within layouts/application (9.9ms)
+Completed 200 OK in 1446ms (Views: 30.9ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for ::1 at 2018-07-07 19:06:31 +0300
+Processing by RecipesController#index as HTML
+  Rendered recipes/index.html.erb within layouts/application (8.5ms)
+Completed 200 OK in 1001ms (Views: 24.7ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for ::1 at 2018-07-07 19:19:40 +0300
+Processing by RecipesController#index as HTML
+  Rendered recipes/index.html.erb within layouts/application (17.6ms)
+Completed 200 OK in 2500ms (Views: 252.8ms | ActiveRecord: 0.0ms)
